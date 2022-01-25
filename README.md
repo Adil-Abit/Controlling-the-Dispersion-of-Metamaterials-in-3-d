@@ -1,1 +1,11 @@
 # Design-of-Metamaterials-for-Optics
+
+This repository contains all computational resources that were used for computations in the aforementioned publication. All computations are done in MATLAB using FELICITY (Finite ELement Implementation and Computational Interface Tool for You) which is freely available at https://www.mathworks.com/matlabcentral/fileexchange/31141-felicity/.
+
+
+# Dependencies
+
+1. The [FELICITY](https://www.mathworks.com/matlabcentral/fileexchange/31141-felicity/) package needs to be installed in the current MATLAB directory.
+2. The [AGMG](http://agmg.eu) needs to be downloaded and placed in the current MATLAB directory.
+3. The  Matlab function `licols.m` which is freely available [HERE](https://www.mathworks.com/matlabcentral/fileexchange/77437-extract-linearly-independent-subset-of-matrix-columns) is used in the Permeability_Function.m.
+4. The Matlab function `load_gmsh2.m` which is freely available [HERE](https://github.com/cycheung/gmsh/blob/master/utils/converters/matlab/load_gmsh2.m) is used in both  Permeability_Function.m and Permittivity_Function.m. 
