@@ -13,3 +13,5 @@ This repository contains all computational resources that were used for computat
 ## Folder Information
 
 - **Permeability_Function**: This folder contains  the Matlab function `Permeability_Function.m` that computes the effective magnetic permeability tensor by solving the relevant eigenvalue problem. It also contains all the linear and bilinear forms written in FELICITY to assemble matrices needed in the process of executing `Permeability_Function.m`. 
+
+- **Permittivity_Function**: This folder contains  the Matlab function `Permittivity_Function.m` that computes the effective dielectric permittivity tensor by solving the relevant eigenvalue problem. It also contains all the linear and bilinear forms written in FELICITY to assemble matrices needed in the process of executing `Permittivity_Function.m`. 
