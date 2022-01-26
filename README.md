@@ -12,8 +12,10 @@ This repository contains all computational resources that were used for computat
 
 ## Folder Information
 
+- **Mesh Files for Different Geometries**: This folder contains the mesh files generated using GMSH. Currently, both `Permeability_Function.m` and `Permittivity_Function.m` are set up to use the mesh file `con0.3(0.12)`. If  another geometry is chosen to  be used  from this folder, the corresponding parts of `Permeability_Function.m` and `Permittivity_Function.m` including `All_Mesh4.m` need to be manually adjusted. 
+
 - **Permeability_Function**: This folder contains  the Matlab function `Permeability_Function.m` that computes the effective magnetic permeability tensor by solving the relevant eigenvalue problem. It also contains all the linear and bilinear forms written in FELICITY to assemble matrices needed in the process of executing `Permeability_Function.m`. 
 
 - **Permittivity_Function**: This folder contains  the Matlab function `Permittivity_Function.m` that computes the effective dielectric permittivity tensor by solving the relevant eigenvalue problem. It also contains all the linear and bilinear forms written in FELICITY to assemble matrices needed in the process of executing `Permittivity_Function.m`. 
 
-- **Mesh Files for Different Geometries**: This folder contains the mesh files generated using GMSH. Currently, both `Permeability_Function.m` and `Permittivity_Function.m` are set up to use the mesh file `con0.3(0.12)`. If  another geometry is chosen to  be used  from this folder, the corresponding parts of `Permeability_Function.m` and `Permittivity_Function.m` including `All_Mesh4.m` need to be manually adjusted. 
+
