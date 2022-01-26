@@ -12,10 +12,15 @@ This repository contains all computational resources that were used for computat
 
 ## Folder Information
 
-- **Mesh Files for Different Geometries**: This folder contains the mesh files generated using GMSH. Currently, both `Permeability_Function.m` and `Permittivity_Function.m` are set up to use the mesh file `con0.3(0.12)`. If  another geometry is chosen to  be used  from this folder, the corresponding parts of `Permeability_Function.m` and `Permittivity_Function.m` including `All_Mesh4.m` need to be manually adjusted. 
+- **Mesh Files for Different Geometries**: This folder contains the mesh files generated using GMSH. Currently, both `Permeability_Function.m` and `Permittivity_Function.m` are set up to use the mesh file `con0.3(0.12)`. If  another geometry is chosen to  be used  from this folder, the highlighted lines of `Permeability_Function.m` and `Permittivity_Function.m` including `All_Mesh4.m` need to be manually adjusted accordingly. 
 
 - **Permeability_Function**: This folder contains  the Matlab function `Permeability_Function.m` that computes the effective magnetic permeability tensor by solving the relevant eigenvalue problem. It also contains all the linear and bilinear forms written in FELICITY to assemble matrices needed in the process of executing `Permeability_Function.m`. 
 
 - **Permittivity_Function**: This folder contains  the Matlab function `Permittivity_Function.m` that computes the effective dielectric permittivity tensor by solving the relevant eigenvalue problem. It also contains all the linear and bilinear forms written in FELICITY to assemble matrices needed in the process of executing `Permittivity_Function.m`. 
+
+
+## Running The Program
+
+Running the `Executing_Script.m`  will invoke `Pearmeability_Function.m` and `Permittivity_Function.m`  to compute effective  magnetic permeability and effective dielectric permittivity tensors and plot them. Currently the plotting in `Executing_Script.m` is set up for  the case associated with the mesh file `con0.3(0.12)`. If  another geometry is chosen to  be used, the highlighted lines of `Executing_Script.m` need to be manually adjusted accordingly. 
 
 
